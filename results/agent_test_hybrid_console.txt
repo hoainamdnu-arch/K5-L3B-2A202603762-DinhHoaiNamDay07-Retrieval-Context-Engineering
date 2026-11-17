@@ -1,0 +1,21 @@
+T01  [answered] searches=1 calls=1 ans='The Mock Turtle says his regular course began with Reeling a'
+T02  [answered] searches=1 calls=1 ans='The Gryphon says under‑sea boots and shoes are polished with'
+T03  [answered] searches=1 calls=1 ans='The Queen demands that the sentence be given first, and the '
+T04  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+T05  [answered] searches=1 calls=1 ans='Alice wishes kittens would use different sounds for yes and '
+U03  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+U04  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+{
+  "split": "test",
+  "config": "hybrid",
+  "model": "openai/gpt-oss-120b",
+  "cases": 7,
+  "model_calls": 16,
+  "prompt_tokens": 22428,
+  "completion_tokens": 2961,
+  "statuses": {
+    "answered": 4,
+    "abstain": 3,
+    "error": 0
+  }
+}

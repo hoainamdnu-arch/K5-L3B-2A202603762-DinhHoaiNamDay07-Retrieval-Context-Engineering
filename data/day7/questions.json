@@ -1,0 +1,316 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "question": "What did the White Rabbit take out of its waistcoat-pocket before Alice followed it?",
+    "expected_answer": "A watch, which it looked at before hurrying on.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 1,
+        "evidence": "but when the Rabbit actually _took a watch out of its waistcoat-pocket_, and looked at it, and then hurried on,"
+      }
+    ],
+    "type": "direct"
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "question": "Why did Alice regret crying so much when she found herself swimming in salt water?",
+    "expected_answer": "She was swimming in tears she had shed when nine feet high and feared drowning in her own tears.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 7,
+        "evidence": "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high.\n\n“I wish I hadn’t cried so much!” said Alice, as she swam about, trying to find her way out. “I shall be punished for it now, I suppose, by being drowned in my own tears! That _will_ be a queer thing, to be sure!"
+      }
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "question": "In chapter 3 of Alice's Adventures in Wonderland, who does the Dodo declare has won the Caucus-race, and who must receive prizes?",
+    "expected_answer": "Everybody has won, and all must have prizes.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 10,
+        "evidence": "At last the Dodo said, “_Everybody_ has won, and all must have prizes.”"
+      }
+    ],
+    "type": "metadata",
+    "filter": {
+      "book_title": "Alice's Adventures in Wonderland",
+      "chapter_number": 3
+    }
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "question": "What did the pebbles in the Rabbit's house turn into, and what happened when Alice ate one?",
+    "expected_answer": "They became little cakes; eating one made Alice begin shrinking immediately.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 16,
+        "evidence": "the pebbles were all turning into little cakes"
+      },
+      {
+        "source_id": "pg11",
+        "page": 16,
+        "evidence": "she began shrinking directly"
+      }
+    ],
+    "type": "cause_effect"
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "question": "According to the Caterpillar, how can different sides of the mushroom change Alice's height?",
+    "expected_answer": "One side makes her taller; the other makes her shorter.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 20,
+        "evidence": "Then it got down off the mushroom, and crawled away in the grass, merely remarking as it went, “One side will make you grow taller, and the other side will make you grow shorter.”\n\n“One side of _what?_ The other side of _what?_” thought Alice to herself.\n\n“Of the mushroom,” said the Caterpillar, just as if she had asked it aloud; and in another moment it was out of sight."
+      }
+    ],
+    "type": "conditional"
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "question": "Why were Alice, the Duchess, and the baby sneezing in the kitchen?",
+    "expected_answer": "There was too much pepper in the soup and in the air.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 24,
+        "evidence": "too much pepper in that soup"
+      },
+      {
+        "source_id": "pg11",
+        "page": 24,
+        "evidence": "too much of it in the air"
+      }
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "question": "What fixed time does the Hatter report, and why are there no breaks to wash the tea-things?",
+    "expected_answer": "It is always six o'clock and always tea-time, leaving no time to wash the things between rounds.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 30,
+        "evidence": "“And ever since that,” the Hatter went on in a mournful tone, “he won’t do a thing I ask! It’s always six o’clock now.”\n\nA bright idea came into Alice’s head. “Is that the reason so many tea-things are put out here?” she asked.\n\n“Yes, that’s it,” said the Hatter with a sigh: “it’s always tea-time, and we’ve no time to wash the things between whiles.”"
+      }
+    ],
+    "type": "cause_effect"
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "question": "In chapter 8 of Alice's Adventures in Wonderland, why are the gardeners repainting the roses, and what do they fear if the Queen discovers the mistake?",
+    "expected_answer": "They planted a white rose-tree instead of a red one and fear that the Queen will have all their heads cut off.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 33,
+        "evidence": "Two began in a low voice, “Why the fact is, you see, Miss, this here ought to have been a _red_ rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know."
+      }
+    ],
+    "type": "metadata_conditional",
+    "filter": {
+      "book_title": "Alice's Adventures in Wonderland",
+      "chapter_number": 8
+    }
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "question": "How does Alice work out how to read the reversed words in the Looking-glass book?",
+    "expected_answer": "She holds the book up to a glass so the words go the right way again.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 6,
+        "evidence": "“Why, it’s a Looking-glass book, of course! And if I hold it up to a glass, the words will all go the right way again.”"
+      }
+    ],
+    "type": "direct"
+  },
+  {
+    "id": "D10",
+    "split": "dev",
+    "question": "In the Red Queen's country, what does running as fast as possible achieve, and what is needed to get somewhere else?",
+    "expected_answer": "All the running one can do keeps one in the same place; to get elsewhere one must run at least twice as fast.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 11,
+        "evidence": "“A slow sort of country!” said the Queen. “Now, _here_, you see, it takes all the running _you_ can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that!”"
+      }
+    ],
+    "type": "conditional"
+  },
+  {
+    "id": "D11",
+    "split": "dev",
+    "question": "What does the Bread-and-Butterfly live on, and what happens if it cannot find that food?",
+    "expected_answer": "Weak tea with cream; without it, the Bread-and-Butterfly dies.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 16,
+        "evidence": "“Crawling at your feet,” said the Gnat (Alice drew her feet back in some alarm), “you may observe a Bread-and-Butterfly. Its wings are thin slices of Bread-and-butter, its body is a crust, and its head is a lump of sugar.”\n\n“And what does _it_ live on?”\n\n“Weak tea with cream in it.”\n\nA new difficulty came into Alice’s head. “Supposing it couldn’t find any?” she suggested.\n\n“Then it would die, of course.”"
+      }
+    ],
+    "type": "conditional"
+  },
+  {
+    "id": "D12",
+    "split": "dev",
+    "question": "In the rhyme about Tweedledum and Tweedledee, what grievance leads them to agree to a battle?",
+    "expected_answer": "Tweedledum says Tweedledee has spoiled his nice new rattle.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 19,
+        "evidence": "“Tweedledum and Tweedledee Agreed to have a battle; For Tweedledum said Tweedledee Had spoiled his nice new rattle."
+      }
+    ],
+    "type": "paraphrase"
+  },
+  {
+    "id": "D13",
+    "split": "dev",
+    "question": "In chapter 5 of Through the Looking-Glass, what is the White Queen's rule for which days jam can be had?",
+    "expected_answer": "Jam tomorrow and jam yesterday, but never jam today.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 25,
+        "evidence": "“You couldn’t have it if you _did_ want it,” the Queen said. “The rule is, jam to-morrow and jam yesterday—but never jam to-day.”"
+      }
+    ],
+    "type": "metadata_exception",
+    "filter": {
+      "book_title": "Through the Looking-Glass",
+      "chapter_number": 5
+    }
+  },
+  {
+    "id": "D14",
+    "split": "dev",
+    "question": "How many days does Humpty Dumpty say are available for un-birthday presents, compared with birthday presents?",
+    "expected_answer": "364 days for un-birthday presents and only one for birthday presents.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 35,
+        "evidence": "and that shows that there are three hundred and sixty-four days when you might get un-birthday presents—”\n\n“Certainly,” said Alice.\n\n“And only _one_ for birthday presents, you know. There’s glory for you!”"
+      }
+    ],
+    "type": "direct"
+  },
+  {
+    "id": "D15",
+    "split": "dev",
+    "question": "In chapter 8 of Through the Looking-Glass, why does the White Knight carry his box upside-down, and what problem does Alice identify?",
+    "expected_answer": "He wants to keep rain out, but the open lid lets the contents fall out.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 46,
+        "evidence": "“I see you’re admiring my little box.” the Knight said in a friendly tone. “It’s my own invention—to keep clothes and sandwiches in. You see I carry it upside-down, so that the rain can’t get in.”\n\n“But the things can get _out_,” Alice gently remarked. “Do you know the lid’s open?”"
+      }
+    ],
+    "type": "metadata_exception",
+    "filter": {
+      "book_title": "Through the Looking-Glass",
+      "chapter_number": 8
+    }
+  },
+  {
+    "id": "T01",
+    "split": "test",
+    "question": "Which subjects does the Mock Turtle say began his regular course, and what four branches of Arithmetic followed?",
+    "expected_answer": "Reeling and Writhing, followed by Ambition, Distraction, Uglification, and Derision.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 42,
+        "evidence": "“Reeling and Writhing, of course, to begin with,” the Mock Turtle replied; “and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision.”"
+      }
+    ],
+    "type": "direct"
+  },
+  {
+    "id": "T02",
+    "split": "test",
+    "question": "In chapter 10 of Alice's Adventures in Wonderland, what does the Gryphon say undersea boots and shoes are polished with, and what are they made of?",
+    "expected_answer": "They are done with a whiting and made of soles and eels.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 45,
+        "evidence": "“Boots and shoes under the sea,” the Gryphon went on in a deep voice, “are done with a whiting. Now you know.”\n\n“And what are they made of?” Alice asked in a tone of great curiosity.\n\n“Soles and eels, of course,” the Gryphon replied rather impatiently: “any shrimp could have told you that.”"
+      }
+    ],
+    "type": "metadata",
+    "filter": {
+      "book_title": "Alice's Adventures in Wonderland",
+      "chapter_number": 10
+    }
+  },
+  {
+    "id": "T03",
+    "split": "test",
+    "question": "What order of sentence and verdict does the Queen demand during Alice's trial?",
+    "expected_answer": "Sentence first, verdict afterwards.",
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 55,
+        "evidence": "“No, no!” said the Queen. “Sentence first—verdict afterwards.”"
+      }
+    ],
+    "type": "direct"
+  },
+  {
+    "id": "T04",
+    "split": "test",
+    "question": "In chapter 9 of Through the Looking-Glass, what answer does the Red Queen give to dividing a loaf by a knife?",
+    "expected_answer": "Bread-and-butter.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 54,
+        "evidence": "Bread-and-butter, of course"
+      }
+    ],
+    "type": "metadata",
+    "filter": {
+      "book_title": "Through the Looking-Glass",
+      "chapter_number": 9
+    }
+  },
+  {
+    "id": "T05",
+    "split": "test",
+    "question": "What yes/no signals does Alice wish kittens would use, and why can she not interpret her kitten's actual reply?",
+    "expected_answer": "Purr for yes and mew for no; the kitten only purrs, so Alice cannot tell whether it means yes or no.",
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 64,
+        "evidence": "It is a very inconvenient habit of kittens (Alice had once made the remark) that, whatever you say to them, they _always_ purr. “If they would only purr for ‘yes’ and mew for ‘no,’ or any rule of that sort,” she had said, “so that one could keep up a conversation! But how _can_ you talk with a person if they always say the same thing?”\n\nOn this occasion the kitten only purred: and it was impossible to guess whether it meant “yes” or “no.”"
+      }
+    ],
+    "type": "conditional_exception"
+  }
+]

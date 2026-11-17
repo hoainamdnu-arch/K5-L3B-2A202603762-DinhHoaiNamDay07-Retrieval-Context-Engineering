@@ -1,0 +1,823 @@
+[
+  {
+    "query_id": "D01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What did the White Rabbit take out of its waistcoat-pocket before Alice followed it?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 1,
+        "evidence": "but when the Rabbit actually _took a watch out of its waistcoat-pocket_, and looked at it, and then hurried on,"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u001_c1",
+        "page": 1,
+        "source_id": "pg11",
+        "score": 0.6895,
+        "rank": 1,
+        "hit": true,
+        "preview": "CHAPTER I. Down the Rabbit-Hole  Alice was beginning to get very tired of sitting by her s"
+      },
+      {
+        "id": "pg11_u013_c1",
+        "page": 13,
+        "source_id": "pg11",
+        "score": 0.68646,
+        "rank": 2,
+        "hit": false,
+        "preview": "CHAPTER IV. The Rabbit Sends in a Little Bill  It was the White Rabbit, trotting slowly ba"
+      },
+      {
+        "id": "pg11_u003_c1",
+        "page": 3,
+        "source_id": "pg11",
+        "score": 0.67772,
+        "rank": 3,
+        "hit": false,
+        "preview": "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 60.15
+  },
+  {
+    "query_id": "D02",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why did Alice regret crying so much when she found herself swimming in salt water?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 7,
+        "evidence": "However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high.\n\n“I wish I hadn’t cried so much!” said Alice, as she swam about, trying to find her way out. “I shall be punished for it now, I suppose, by being drowned in my own tears! That _will_ be a queer thing, to be sure!"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u007_c2",
+        "page": 7,
+        "source_id": "pg11",
+        "score": 0.75563,
+        "rank": 1,
+        "hit": true,
+        "preview": "As she said these words her foot slipped, and in another moment, splash! she was up to her"
+      },
+      {
+        "id": "pg11_u005_c2",
+        "page": 5,
+        "source_id": "pg11",
+        "score": 0.66189,
+        "rank": 2,
+        "hit": false,
+        "preview": "Poor Alice! It was as much as she could do, lying down on one side, to look through into t"
+      },
+      {
+        "id": "pg11_u014_c1",
+        "page": 14,
+        "source_id": "pg11",
+        "score": 0.64442,
+        "rank": 3,
+        "hit": false,
+        "preview": "It did so indeed, and much sooner than she had expected: before she had drunk half the bot"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 44.27
+  },
+  {
+    "query_id": "D03",
+    "split": "dev",
+    "type": "metadata",
+    "question": "In chapter 3 of Alice's Adventures in Wonderland, who does the Dodo declare has won the Caucus-race, and who must receive prizes?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "book_title": "Alice's Adventures in Wonderland",
+      "chapter_number": 3
+    },
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 10,
+        "evidence": "At last the Dodo said, “_Everybody_ has won, and all must have prizes.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u010_c2",
+        "page": 10,
+        "source_id": "pg11",
+        "score": 0.69141,
+        "rank": 1,
+        "hit": true,
+        "preview": "First it marked out a race-course, in a sort of circle, (“the exact shape doesn’t matter,”"
+      },
+      {
+        "id": "pg11_u010_c1",
+        "page": 10,
+        "source_id": "pg11",
+        "score": 0.65035,
+        "rank": 2,
+        "hit": false,
+        "preview": "“As wet as ever,” said Alice in a melancholy tone: “it doesn’t seem to dry me at all.”  “I"
+      },
+      {
+        "id": "pg11_u009_c1",
+        "page": 9,
+        "source_id": "pg11",
+        "score": 0.62471,
+        "rank": 3,
+        "hit": false,
+        "preview": "CHAPTER III. A Caucus-Race and a Long Tale  They were indeed a queer-looking party that as"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 90.9
+  },
+  {
+    "query_id": "D04",
+    "split": "dev",
+    "type": "cause_effect",
+    "question": "What did the pebbles in the Rabbit's house turn into, and what happened when Alice ate one?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 16,
+        "evidence": "the pebbles were all turning into little cakes"
+      },
+      {
+        "source_id": "pg11",
+        "page": 16,
+        "evidence": "she began shrinking directly"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u016_c2",
+        "page": 16,
+        "source_id": "pg11",
+        "score": 0.72895,
+        "rank": 1,
+        "hit": true,
+        "preview": "There was a dead silence instantly, and Alice thought to herself, “I wonder what they _wil"
+      },
+      {
+        "id": "pg11_u015_c1",
+        "page": 15,
+        "source_id": "pg11",
+        "score": 0.71665,
+        "rank": 2,
+        "hit": false,
+        "preview": "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened in"
+      },
+      {
+        "id": "pg11_u016_c3",
+        "page": 16,
+        "source_id": "pg11",
+        "score": 0.69531,
+        "rank": 3,
+        "hit": true,
+        "preview": "So she swallowed one of the cakes, and was delighted to find that she began shrinking dire"
+      }
+    ],
+    "context_ids": [
+      "pg11_u016_c3"
+    ],
+    "context_chars": 587,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 51.59
+  },
+  {
+    "query_id": "D05",
+    "split": "dev",
+    "type": "conditional",
+    "question": "According to the Caterpillar, how can different sides of the mushroom change Alice's height?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 20,
+        "evidence": "Then it got down off the mushroom, and crawled away in the grass, merely remarking as it went, “One side will make you grow taller, and the other side will make you grow shorter.”\n\n“One side of _what?_ The other side of _what?_” thought Alice to herself.\n\n“Of the mushroom,” said the Caterpillar, just as if she had asked it aloud; and in another moment it was out of sight."
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u020_c1",
+        "page": 20,
+        "source_id": "pg11",
+        "score": 0.75596,
+        "rank": 1,
+        "hit": true,
+        "preview": "“Are you content now?” said the Caterpillar.  “Well, I should like to be a _little_ larger"
+      },
+      {
+        "id": "pg11_u017_c3",
+        "page": 17,
+        "source_id": "pg11",
+        "score": 0.70454,
+        "rank": 2,
+        "hit": false,
+        "preview": "“And yet what a dear little puppy it was!” said Alice, as she leant against a buttercup to"
+      },
+      {
+        "id": "pg11_u020_c2",
+        "page": 20,
+        "source_id": "pg11",
+        "score": 0.70387,
+        "rank": 3,
+        "hit": false,
+        "preview": "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 50.51
+  },
+  {
+    "query_id": "D06",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why were Alice, the Duchess, and the baby sneezing in the kitchen?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 24,
+        "evidence": "too much pepper in that soup"
+      },
+      {
+        "source_id": "pg11",
+        "page": 24,
+        "evidence": "too much of it in the air"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u024_c2",
+        "page": 24,
+        "source_id": "pg11",
+        "score": 0.74619,
+        "rank": 1,
+        "hit": true,
+        "preview": "There was certainly too much of it in the air. Even the Duchess sneezed occasionally; and "
+      },
+      {
+        "id": "pg11_u025_c1",
+        "page": 25,
+        "source_id": "pg11",
+        "score": 0.72295,
+        "rank": 2,
+        "hit": false,
+        "preview": "Alice did not at all like the tone of this remark, and thought it would be as well to intr"
+      },
+      {
+        "id": "pg11_u025_c2",
+        "page": 25,
+        "source_id": "pg11",
+        "score": 0.71651,
+        "rank": 3,
+        "hit": false,
+        "preview": "Alice glanced rather anxiously at the cook, to see if she meant to take the hint; but the "
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 47.9
+  },
+  {
+    "query_id": "D07",
+    "split": "dev",
+    "type": "cause_effect",
+    "question": "What fixed time does the Hatter report, and why are there no breaks to wash the tea-things?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 30,
+        "evidence": "“And ever since that,” the Hatter went on in a mournful tone, “he won’t do a thing I ask! It’s always six o’clock now.”\n\nA bright idea came into Alice’s head. “Is that the reason so many tea-things are put out here?” she asked.\n\n“Yes, that’s it,” said the Hatter with a sigh: “it’s always tea-time, and we’ve no time to wash the things between whiles.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u030_c2",
+        "page": 30,
+        "source_id": "pg11",
+        "score": 0.63548,
+        "rank": 1,
+        "hit": true,
+        "preview": "“Well, I’d hardly finished the first verse,” said the Hatter, “when the Queen jumped up an"
+      },
+      {
+        "id": "pg11_u029_c1",
+        "page": 29,
+        "source_id": "pg11",
+        "score": 0.63534,
+        "rank": 2,
+        "hit": false,
+        "preview": "The Hatter was the first to break the silence. “What day of the month is it?” he said, tur"
+      },
+      {
+        "id": "pg11_u050_c2",
+        "page": 50,
+        "source_id": "pg11",
+        "score": 0.57589,
+        "rank": 3,
+        "hit": false,
+        "preview": "“The twinkling of the _what?_” said the King.  “It _began_ with the tea,” the Hatter repli"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 62.73
+  },
+  {
+    "query_id": "D08",
+    "split": "dev",
+    "type": "metadata_conditional",
+    "question": "In chapter 8 of Alice's Adventures in Wonderland, why are the gardeners repainting the roses, and what do they fear if the Queen discovers the mistake?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "book_title": "Alice's Adventures in Wonderland",
+      "chapter_number": 8
+    },
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 33,
+        "evidence": "Two began in a low voice, “Why the fact is, you see, Miss, this here ought to have been a _red_ rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know."
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u033_c1",
+        "page": 33,
+        "source_id": "pg11",
+        "score": 0.72657,
+        "rank": 1,
+        "hit": false,
+        "preview": "CHAPTER VIII. The Queen’s Croquet-Ground  A large rose-tree stood near the entrance of the"
+      },
+      {
+        "id": "pg11_u034_c1",
+        "page": 34,
+        "source_id": "pg11",
+        "score": 0.70481,
+        "rank": 2,
+        "hit": false,
+        "preview": "Alice was rather doubtful whether she ought not to lie down on her face like the three gar"
+      },
+      {
+        "id": "pg11_u033_c2",
+        "page": 33,
+        "source_id": "pg11",
+        "score": 0.69071,
+        "rank": 3,
+        "hit": true,
+        "preview": "Five and Seven said nothing, but looked at Two. Two began in a low voice, “Why the fact is"
+      }
+    ],
+    "context_ids": [
+      "pg11_u033_c2"
+    ],
+    "context_chars": 677,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "reciprocal_rank": 0.3333333333333333,
+    "elapsed_ms": 87.34
+  },
+  {
+    "query_id": "D09",
+    "split": "dev",
+    "type": "direct",
+    "question": "How does Alice work out how to read the reversed words in the Looking-glass book?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 6,
+        "evidence": "“Why, it’s a Looking-glass book, of course! And if I hold it up to a glass, the words will all go the right way again.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u028_c2",
+        "page": 28,
+        "source_id": "pg12",
+        "score": 0.689,
+        "rank": 1,
+        "hit": false,
+        "preview": "“I don’t _quite_ know yet,” Alice said, very gently. “I should like to look all round me f"
+      },
+      {
+        "id": "pg12_u003_c2",
+        "page": 3,
+        "source_id": "pg12",
+        "score": 0.68027,
+        "rank": 2,
+        "hit": false,
+        "preview": "“Now, if you’ll only attend, Kitty, and not talk so much, I’ll tell you all my ideas about"
+      },
+      {
+        "id": "pg12_u037_c1",
+        "page": 37,
+        "source_id": "pg12",
+        "score": 0.67892,
+        "rank": 3,
+        "hit": false,
+        "preview": "“I read it in a book,” said Alice. “But I had some poetry repeated to me, much easier than"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "reciprocal_rank": 0.0,
+    "elapsed_ms": 45.42
+  },
+  {
+    "query_id": "D10",
+    "split": "dev",
+    "type": "conditional",
+    "question": "In the Red Queen's country, what does running as fast as possible achieve, and what is needed to get somewhere else?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 11,
+        "evidence": "“A slow sort of country!” said the Queen. “Now, _here_, you see, it takes all the running _you_ can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that!”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u011_c2",
+        "page": 11,
+        "source_id": "pg12",
+        "score": 0.66596,
+        "rank": 1,
+        "hit": true,
+        "preview": "“Nearly there!” the Queen repeated. “Why, we passed it ten minutes ago! Faster!” And they "
+      },
+      {
+        "id": "pg12_u011_c1",
+        "page": 11,
+        "source_id": "pg12",
+        "score": 0.61711,
+        "rank": 2,
+        "hit": false,
+        "preview": "She glanced rather shyly at the real Queen as she said this, but her companion only smiled"
+      },
+      {
+        "id": "pg12_u010_c1",
+        "page": 10,
+        "source_id": "pg12",
+        "score": 0.60822,
+        "rank": 3,
+        "hit": false,
+        "preview": "“Where do you come from?” said the Red Queen. “And where are you going? Look up, speak nic"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 55.42
+  },
+  {
+    "query_id": "D11",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What does the Bread-and-Butterfly live on, and what happens if it cannot find that food?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 16,
+        "evidence": "“Crawling at your feet,” said the Gnat (Alice drew her feet back in some alarm), “you may observe a Bread-and-Butterfly. Its wings are thin slices of Bread-and-butter, its body is a crust, and its head is a lump of sugar.”\n\n“And what does _it_ live on?”\n\n“Weak tea with cream in it.”\n\nA new difficulty came into Alice’s head. “Supposing it couldn’t find any?” she suggested.\n\n“Then it would die, of course.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u016_c2",
+        "page": 16,
+        "source_id": "pg12",
+        "score": 0.6505,
+        "rank": 1,
+        "hit": true,
+        "preview": "“Look on the branch above your head,” said the Gnat, “and there you’ll find a snap-dragon-"
+      },
+      {
+        "id": "pg12_u046_c2",
+        "page": 46,
+        "source_id": "pg12",
+        "score": 0.59954,
+        "rank": 2,
+        "hit": false,
+        "preview": "“I see you’re admiring my little box.” the Knight said in a friendly tone. “It’s my own in"
+      },
+      {
+        "id": "pg11_u020_c1",
+        "page": 20,
+        "source_id": "pg11",
+        "score": 0.59873,
+        "rank": 3,
+        "hit": false,
+        "preview": "“Are you content now?” said the Caterpillar.  “Well, I should like to be a _little_ larger"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 49.46
+  },
+  {
+    "query_id": "D12",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "In the rhyme about Tweedledum and Tweedledee, what grievance leads them to agree to a battle?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 19,
+        "evidence": "“Tweedledum and Tweedledee Agreed to have a battle; For Tweedledum said Tweedledee Had spoiled his nice new rattle."
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u019_c1",
+        "page": 19,
+        "source_id": "pg12",
+        "score": 0.74947,
+        "rank": 1,
+        "hit": true,
+        "preview": "CHAPTER IV. Tweedledum And Tweedledee  They were standing under a tree, each with an arm r"
+      },
+      {
+        "id": "pg12_u024_c2",
+        "page": 24,
+        "source_id": "pg12",
+        "score": 0.68283,
+        "rank": 2,
+        "hit": false,
+        "preview": "“I’m very brave generally,” he went on in a low voice: “only to-day I happen to have a hea"
+      },
+      {
+        "id": "pg12_u023_c2",
+        "page": 23,
+        "source_id": "pg12",
+        "score": 0.67962,
+        "rank": 3,
+        "hit": false,
+        "preview": "“I knew it was!” cried Tweedledum, beginning to stamp about wildly and tear his hair. “It’"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 55.03
+  },
+  {
+    "query_id": "D13",
+    "split": "dev",
+    "type": "metadata_exception",
+    "question": "In chapter 5 of Through the Looking-Glass, what is the White Queen's rule for which days jam can be had?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "book_title": "Through the Looking-Glass",
+      "chapter_number": 5
+    },
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 25,
+        "evidence": "“You couldn’t have it if you _did_ want it,” the Queen said. “The rule is, jam to-morrow and jam yesterday—but never jam to-day.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u026_c1",
+        "page": 26,
+        "source_id": "pg12",
+        "score": 0.61406,
+        "rank": 1,
+        "hit": false,
+        "preview": "“It _must_ come sometimes to ‘jam to-day,’” Alice objected.  “No, it can’t,” said the Quee"
+      },
+      {
+        "id": "pg12_u025_c1",
+        "page": 25,
+        "source_id": "pg12",
+        "score": 0.5895,
+        "rank": 2,
+        "hit": false,
+        "preview": "CHAPTER V. Wool and Water  She caught the shawl as she spoke, and looked about for the own"
+      },
+      {
+        "id": "pg12_u027_c2",
+        "page": 27,
+        "source_id": "pg12",
+        "score": 0.56109,
+        "rank": 3,
+        "hit": false,
+        "preview": "“Oh, don’t go on like that!” cried the poor Queen, wringing her hands in despair. “Conside"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "reciprocal_rank": 0.0,
+    "elapsed_ms": 77.13
+  },
+  {
+    "query_id": "D14",
+    "split": "dev",
+    "type": "direct",
+    "question": "How many days does Humpty Dumpty say are available for un-birthday presents, compared with birthday presents?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 35,
+        "evidence": "and that shows that there are three hundred and sixty-four days when you might get un-birthday presents—”\n\n“Certainly,” said Alice.\n\n“And only _one_ for birthday presents, you know. There’s glory for you!”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u035_c1",
+        "page": 35,
+        "source_id": "pg12",
+        "score": 0.69115,
+        "rank": 1,
+        "hit": true,
+        "preview": "“Three hundred and sixty-four, of course.”  Humpty Dumpty looked doubtful. “I’d rather see"
+      },
+      {
+        "id": "pg12_u034_c2",
+        "page": 34,
+        "source_id": "pg12",
+        "score": 0.68686,
+        "rank": 2,
+        "hit": false,
+        "preview": "“It is a—_most—provoking_—thing,” he said at last, “when a person doesn’t know a cravat fr"
+      },
+      {
+        "id": "pg12_u034_c1",
+        "page": 34,
+        "source_id": "pg12",
+        "score": 0.64287,
+        "rank": 3,
+        "hit": false,
+        "preview": "“If I’d meant that, I’d have said it,” said Humpty Dumpty.  Alice didn’t want to begin ano"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 58.3
+  },
+  {
+    "query_id": "D15",
+    "split": "dev",
+    "type": "metadata_exception",
+    "question": "In chapter 8 of Through the Looking-Glass, why does the White Knight carry his box upside-down, and what problem does Alice identify?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "book_title": "Through the Looking-Glass",
+      "chapter_number": 8
+    },
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 46,
+        "evidence": "“I see you’re admiring my little box.” the Knight said in a friendly tone. “It’s my own invention—to keep clothes and sandwiches in. You see I carry it upside-down, so that the rain can’t get in.”\n\n“But the things can get _out_,” Alice gently remarked. “Do you know the lid’s open?”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u046_c2",
+        "page": 46,
+        "source_id": "pg12",
+        "score": 0.64151,
+        "rank": 1,
+        "hit": true,
+        "preview": "“I see you’re admiring my little box.” the Knight said in a friendly tone. “It’s my own in"
+      },
+      {
+        "id": "pg12_u046_c1",
+        "page": 46,
+        "source_id": "pg12",
+        "score": 0.63697,
+        "rank": 2,
+        "hit": false,
+        "preview": "Another Rule of Battle, that Alice had not noticed, seemed to be that they always fell on "
+      },
+      {
+        "id": "pg12_u050_c1",
+        "page": 50,
+        "source_id": "pg12",
+        "score": 0.62899,
+        "rank": 3,
+        "hit": false,
+        "preview": "“How _can_ you go on talking so quietly, head downwards?” Alice asked, as she dragged him "
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 86.02
+  }
+]

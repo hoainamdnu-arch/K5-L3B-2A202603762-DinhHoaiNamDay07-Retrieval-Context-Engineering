@@ -1,0 +1,152 @@
+[
+  {
+    "config": "dense",
+    "note": "Dense vectors (bge-small) on the Day 6 store",
+    "top_k": 3,
+    "budget_chars": 800,
+    "n": 15,
+    "hit1": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8
+    },
+    "evidence_hit3": {
+      "n": 13,
+      "N": 15,
+      "rate": 0.8667
+    },
+    "context_evidence_rate": {
+      "n": 2,
+      "N": 15,
+      "rate": 0.1333
+    },
+    "recall_at_k": 0.8667,
+    "mrr": 0.8222,
+    "median_ms": 55.42
+  },
+  {
+    "config": "bm25",
+    "note": "Okapi BM25 lexical baseline",
+    "top_k": 3,
+    "budget_chars": 800,
+    "n": 15,
+    "hit1": {
+      "n": 11,
+      "N": 15,
+      "rate": 0.7333
+    },
+    "evidence_hit3": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "context_evidence_rate": {
+      "n": 1,
+      "N": 15,
+      "rate": 0.0667
+    },
+    "recall_at_k": 1.0,
+    "mrr": 0.8667,
+    "median_ms": 3.61
+  },
+  {
+    "config": "hybrid_rrf",
+    "note": "RRF fusion of dense + BM25",
+    "top_k": 3,
+    "budget_chars": 800,
+    "n": 15,
+    "hit1": {
+      "n": 11,
+      "N": 15,
+      "rate": 0.7333
+    },
+    "evidence_hit3": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "context_evidence_rate": {
+      "n": 1,
+      "N": 15,
+      "rate": 0.0667
+    },
+    "recall_at_k": 1.0,
+    "mrr": 0.8667,
+    "median_ms": 77.41
+  },
+  {
+    "config": "dense_filter",
+    "note": "Dense + question-inferred metadata filter, budget 3000",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "n": 15,
+    "hit1": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8
+    },
+    "evidence_hit3": {
+      "n": 13,
+      "N": 15,
+      "rate": 0.8667
+    },
+    "context_evidence_rate": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8
+    },
+    "recall_at_k": 0.8667,
+    "mrr": 0.8222,
+    "median_ms": 52.23
+  },
+  {
+    "config": "dense_rerank_bm25",
+    "note": "Dense over-fetch 12 -> BM25 rerank -> top 3, budget 3000",
+    "top_k": 3,
+    "budget_chars": 3000,
+    "n": 15,
+    "hit1": {
+      "n": 11,
+      "N": 15,
+      "rate": 0.7333
+    },
+    "evidence_hit3": {
+      "n": 14,
+      "N": 15,
+      "rate": 0.9333
+    },
+    "context_evidence_rate": {
+      "n": 14,
+      "N": 15,
+      "rate": 0.9333
+    },
+    "recall_at_k": 0.9333,
+    "mrr": 0.8333,
+    "median_ms": 49.74
+  },
+  {
+    "config": "hybrid_wide_ctx",
+    "note": "Hybrid RRF, top_k=5, wider 3000-char context",
+    "top_k": 5,
+    "budget_chars": 3000,
+    "n": 15,
+    "hit1": {
+      "n": 11,
+      "N": 15,
+      "rate": 0.7333
+    },
+    "evidence_hit3": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "context_evidence_rate": {
+      "n": 15,
+      "N": 15,
+      "rate": 1.0
+    },
+    "recall_at_k": 1.0,
+    "mrr": 0.8667,
+    "median_ms": 56.03
+  }
+]

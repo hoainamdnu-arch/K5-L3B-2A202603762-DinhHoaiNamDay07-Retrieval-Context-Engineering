@@ -1,0 +1,9 @@
+# Day 7 Agentic RAG — runtime dependencies (Python 3.11+)
+# Pinned to the versions used to produce the committed results (Day 6 venv).
+fastembed==0.9.1
+qdrant-client==1.17.1
+numpy==2.2.6
+httpx==0.28.1
+# stdlib only otherwise (BM25, RRF, metrics are hand-rolled).
+# The embedding model BAAI/bge-small-en-v1.5 is fetched by fastembed on first
+# run (~130 MB) unless a cache already exists (FASTEMBED_CACHE / Day 6 cache).

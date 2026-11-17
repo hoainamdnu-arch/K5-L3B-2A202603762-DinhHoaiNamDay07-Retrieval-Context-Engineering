@@ -1,0 +1,31 @@
+D01  [answered] searches=1 calls=1 ans='The White Rabbit took a watch out of its waistcoat‑pocket. ['
+D02  [answered] searches=1 calls=1 ans='Alice regretted crying because the salt water turned out to '
+D03  [answered] searches=1 calls=1 ans='The Dodo declares that "everybody" has won the Caucus‑race, '
+D04  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+D05  [answered] searches=1 calls=1 ans='The Caterpillar tells Alice that one side of the mushroom wi'
+D06  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+D07  [answered] searches=1 calls=1 ans='The Hatter says that it is always six o’clock, and because i'
+D08  [answered] searches=1 calls=1 ans='The gardeners are hurriedly repainting the roses because the'
+D09  [answered] searches=1 calls=1 ans='She realizes that the book is a Looking‑glass book, so she h'
+D10  [answered] searches=1 calls=1 ans='In the Red Queen’s country, even running as fast as you can '
+D11  [answered] searches=1 calls=1 ans='The Bread‑and‑Butterfly lives on weak tea with cream, and if'
+D12  [answered] searches=1 calls=1 ans='They agree to battle because Tweedledum claims Tweedledee ha'
+D13  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+D14  [answered] searches=1 calls=1 ans='Humpty Dumpty says there are 364 days when you might get un‑'
+D15  [answered] searches=1 calls=1 ans='The White Knight says he carries the little box upside‑down '
+U01  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+U02  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+{
+  "split": "dev",
+  "config": "hybrid",
+  "model": "openai/gpt-oss-120b",
+  "cases": 17,
+  "model_calls": 32,
+  "prompt_tokens": 46297,
+  "completion_tokens": 5769,
+  "statuses": {
+    "answered": 12,
+    "abstain": 5,
+    "error": 0
+  }
+}

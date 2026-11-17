@@ -1,0 +1,25 @@
+{
+  "config": "hybrid_wide_ctx",
+  "note": "Hybrid RRF, top_k=5, wider 3000-char context",
+  "top_k": 5,
+  "budget_chars": 3000,
+  "n": 15,
+  "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.7333
+  },
+  "evidence_hit3": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "context_evidence_rate": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "recall_at_k": 1.0,
+  "mrr": 0.8667,
+  "median_ms": 56.03
+}

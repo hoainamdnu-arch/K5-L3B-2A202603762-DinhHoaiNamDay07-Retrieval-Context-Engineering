@@ -1,0 +1,21 @@
+T01  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+T02  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+T03  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+T04  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+T05  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+U03  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+U04  [abstain ] searches=4 calls=4 ans='Không đủ bằng chứng để trả lời.'
+{
+  "split": "test",
+  "config": "baseline_bm25",
+  "model": "openai/gpt-oss-120b",
+  "cases": 7,
+  "model_calls": 28,
+  "prompt_tokens": 16455,
+  "completion_tokens": 3038,
+  "statuses": {
+    "answered": 0,
+    "abstain": 7,
+    "error": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "config": "hybrid_rrf",
+  "note": "RRF fusion of dense + BM25",
+  "top_k": 3,
+  "budget_chars": 800,
+  "n": 15,
+  "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.7333
+  },
+  "evidence_hit3": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "context_evidence_rate": {
+    "n": 1,
+    "N": 15,
+    "rate": 0.0667
+  },
+  "recall_at_k": 1.0,
+  "mrr": 0.8667,
+  "median_ms": 77.41
+}

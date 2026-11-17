@@ -1,0 +1,25 @@
+{
+  "config": "dense_rerank_bm25",
+  "note": "Dense over-fetch 12 -> BM25 rerank -> top 3, budget 3000",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "n": 15,
+  "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.7333
+  },
+  "evidence_hit3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.9333
+  },
+  "context_evidence_rate": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.9333
+  },
+  "recall_at_k": 0.9333,
+  "mrr": 0.8333,
+  "median_ms": 49.74
+}

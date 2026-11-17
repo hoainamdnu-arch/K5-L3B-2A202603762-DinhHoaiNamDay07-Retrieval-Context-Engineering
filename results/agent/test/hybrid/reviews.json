@@ -1,0 +1,16 @@
+[
+  {"query_id": "T01", "answer_grade": 2, "citation_support": [true],
+   "note": "Gold passage (Reeling/Writhing + Ambition/Distraction/Uglification/Derision) present in pg11_u042_c1; answer correct and complete; citation supports it."},
+  {"query_id": "T02", "answer_grade": 2, "citation_support": [true],
+   "note": "pg11_u045_c1 contains 'done with a whiting' and 'Soles and eels'; answer correct; citation supports."},
+  {"query_id": "T03", "answer_grade": 2, "citation_support": [true],
+   "note": "pg11_u055_c1 contains 'Sentence first—verdict afterwards'; answer correct; citation supports."},
+  {"query_id": "T04", "answer_grade": 0, "citation_support": [],
+   "note": "False abstention: gold 'Bread-and-butter, of course' (pg12 p54) sat at rank 5 and never entered context; abstain on an answerable question scores 0."},
+  {"query_id": "T05", "answer_grade": 2, "citation_support": [true],
+   "note": "pg12_u064_c1 contains the purr-for-yes/mew-for-no wish and the kitten-only-purrs line; answer correct and complete; citation supports."},
+  {"query_id": "U03", "abstention_correct": true, "citation_support": [],
+   "note": "No price for the watch exists in the corpus; agent abstained after 4 searches — correct."},
+  {"query_id": "U04", "abstention_correct": true, "citation_support": [],
+   "note": "Alice's normal height is never given numerically; retrieved passages show only transformed heights; agent abstained — correct."}
+]

@@ -1,0 +1,19 @@
+[
+  {"query_id": "D01", "answer_grade": 2, "citation_support": [true], "note": "Watch from waistcoat-pocket; gold in pg11_u001_c1; correct."},
+  {"query_id": "D02", "answer_grade": 2, "citation_support": [true], "note": "Pool of tears wept at nine feet high; gold in pg11_u007_c2; correct."},
+  {"query_id": "D03", "answer_grade": 2, "citation_support": [true], "note": "'Everybody has won, and all must have prizes'; gold in pg11_u010_c2; correct."},
+  {"query_id": "D04", "answer_grade": 0, "citation_support": [], "note": "False abstention. One gold span (pebbles->cakes) was in context, the other (shrinking) was not; model abstained on the two-part answer."},
+  {"query_id": "D05", "answer_grade": 2, "citation_support": [true], "note": "One side taller / other shorter; gold in pg11_u020_c1; correct."},
+  {"query_id": "D06", "answer_grade": 0, "citation_support": [], "note": "False abstention. Only one of the two pepper spans ('too much of it in the air') reached context; model abstained."},
+  {"query_id": "D07", "answer_grade": 2, "citation_support": [true], "note": "Always six o'clock / always tea-time / no time to wash; gold in pg11_u030_c2; correct."},
+  {"query_id": "D08", "answer_grade": 2, "citation_support": [true, true], "note": "White tree by mistake + fear beheading; gold line in pg11_u033_c2, painting context in u033_c1; both cited citations support the answer."},
+  {"query_id": "D09", "answer_grade": 2, "citation_support": [true], "note": "Hold the Looking-glass book up to a glass; gold in pg12_u006_c2; correct (recovered by seeding the first search with the literal question)."},
+  {"query_id": "D10", "answer_grade": 2, "citation_support": [true], "note": "Running keeps you in place; twice as fast to move; gold in pg12_u011_c2; correct."},
+  {"query_id": "D11", "answer_grade": 2, "citation_support": [true], "note": "Weak tea with cream; would die without it; gold in pg12_u016_c2; correct."},
+  {"query_id": "D12", "answer_grade": 2, "citation_support": [true], "note": "Tweedledee spoiled the new rattle; gold in pg12_u019_c1; correct."},
+  {"query_id": "D13", "answer_grade": 0, "citation_support": [], "note": "False abstention. Hybrid on the literal question retrieved wrong pages (gold pg12 p25 absent from context); a chapter-5 metadata filter would have helped."},
+  {"query_id": "D14", "answer_grade": 2, "citation_support": [true], "note": "364 un-birthday days vs 1 birthday; gold in pg12_u035_c1; correct."},
+  {"query_id": "D15", "answer_grade": 2, "citation_support": [true], "note": "Upside-down to keep rain out, lid open so things fall out; gold in pg12_u046_c2; correct (recovered by literal-question seeding)."},
+  {"query_id": "U01", "abstention_correct": true, "citation_support": [], "note": "'10/6' is only in the illustration; not in text; abstained correctly."},
+  {"query_id": "U02", "abstention_correct": true, "citation_support": [], "note": "Context even shows 'My name is Alice, but—' with no surname; abstained correctly."}
+]

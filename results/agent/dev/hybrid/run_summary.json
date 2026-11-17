@@ -1,0 +1,14 @@
+{
+  "split": "dev",
+  "config": "hybrid",
+  "model": "openai/gpt-oss-120b",
+  "cases": 17,
+  "model_calls": 32,
+  "prompt_tokens": 46297,
+  "completion_tokens": 5769,
+  "statuses": {
+    "answered": 12,
+    "abstain": 5,
+    "error": 0
+  }
+}

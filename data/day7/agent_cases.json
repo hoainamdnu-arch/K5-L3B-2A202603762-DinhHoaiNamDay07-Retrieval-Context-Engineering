@@ -1,0 +1,174 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "question": "What did the White Rabbit take out of its waistcoat-pocket before Alice followed it?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "question": "Why did Alice regret crying so much when she found herself swimming in salt water?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "question": "In chapter 3 of Alice's Adventures in Wonderland, who does the Dodo declare has won the Caucus-race, and who must receive prizes?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "question": "What did the pebbles in the Rabbit's house turn into, and what happened when Alice ate one?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "question": "According to the Caterpillar, how can different sides of the mushroom change Alice's height?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "question": "Why were Alice, the Duchess, and the baby sneezing in the kitchen?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "question": "What fixed time does the Hatter report, and why are there no breaks to wash the tea-things?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "question": "In chapter 8 of Alice's Adventures in Wonderland, why are the gardeners repainting the roses, and what do they fear if the Queen discovers the mistake?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "question": "How does Alice work out how to read the reversed words in the Looking-glass book?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D10",
+    "split": "dev",
+    "question": "In the Red Queen's country, what does running as fast as possible achieve, and what is needed to get somewhere else?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D11",
+    "split": "dev",
+    "question": "What does the Bread-and-Butterfly live on, and what happens if it cannot find that food?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D12",
+    "split": "dev",
+    "question": "In the rhyme about Tweedledum and Tweedledee, what grievance leads them to agree to a battle?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D13",
+    "split": "dev",
+    "question": "In chapter 5 of Through the Looking-Glass, what is the White Queen's rule for which days jam can be had?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D14",
+    "split": "dev",
+    "question": "How many days does Humpty Dumpty say are available for un-birthday presents, compared with birthday presents?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "D15",
+    "split": "dev",
+    "question": "In chapter 8 of Through the Looking-Glass, why does the White Knight carry his box upside-down, and what problem does Alice identify?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "T01",
+    "split": "test",
+    "question": "Which subjects does the Mock Turtle say began his regular course, and what four branches of Arithmetic followed?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "T02",
+    "split": "test",
+    "question": "In chapter 10 of Alice's Adventures in Wonderland, what does the Gryphon say undersea boots and shoes are polished with, and what are they made of?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "T03",
+    "split": "test",
+    "question": "What order of sentence and verdict does the Queen demand during Alice's trial?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "T04",
+    "split": "test",
+    "question": "In chapter 9 of Through the Looking-Glass, what answer does the Red Queen give to dividing a loaf by a knife?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "T05",
+    "split": "test",
+    "question": "What yes/no signals does Alice wish kittens would use, and why can she not interpret her kitten's actual reply?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "U01",
+    "split": "dev",
+    "question": "What price is printed on the paper label tucked into the Mad Hatter's hat?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The famous '10/6' price tag appears only in Tenniel's illustration of the Hatter, never in the narrative text. Strings '10/6' and 'ten and six' do not occur in the normalized corpus."
+  },
+  {
+    "id": "U02",
+    "split": "dev",
+    "question": "What is Alice's surname (family name) in the two Alice books?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Alice is only ever called 'Alice'. The words 'surname' and 'last name' do not occur and no family name is given anywhere in the text."
+  },
+  {
+    "id": "U03",
+    "split": "test",
+    "question": "How much money does the White Rabbit's watch cost?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The watch is described as taken from a waistcoat pocket but no monetary value or price is ever attached to it in the text."
+  },
+  {
+    "id": "U04",
+    "split": "test",
+    "question": "What is Alice's normal height in inches when she is neither enlarged nor shrunk?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Specific heights are only given for her transformed states (e.g. 'ten inches high', 'nine feet high', 'three inches high'); her ordinary height is never stated numerically."
+  }
+]

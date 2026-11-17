@@ -1,0 +1,273 @@
+[
+  {
+    "query_id": "T01",
+    "split": "test",
+    "type": "direct",
+    "question": "Which subjects does the Mock Turtle say began his regular course, and what four branches of Arithmetic followed?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 42,
+        "evidence": "“Reeling and Writhing, of course, to begin with,” the Mock Turtle replied; “and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u042_c2",
+        "page": 42,
+        "source_id": "pg11",
+        "score": 0.68357,
+        "rank": 1,
+        "hit": false,
+        "preview": "“Well, there was Mystery,” the Mock Turtle replied, counting off the subjects on his flapp"
+      },
+      {
+        "id": "pg11_u042_c1",
+        "page": 42,
+        "source_id": "pg11",
+        "score": 0.67741,
+        "rank": 2,
+        "hit": true,
+        "preview": "“With extras?” asked the Mock Turtle a little anxiously.  “Yes,” said Alice, “we learned F"
+      },
+      {
+        "id": "pg11_u041_c2",
+        "page": 41,
+        "source_id": "pg11",
+        "score": 0.6763,
+        "rank": 3,
+        "hit": false,
+        "preview": "“When we were little,” the Mock Turtle went on at last, more calmly, though still sobbing "
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 0.5,
+    "elapsed_ms": 47.12
+  },
+  {
+    "query_id": "T02",
+    "split": "test",
+    "type": "metadata",
+    "question": "In chapter 10 of Alice's Adventures in Wonderland, what does the Gryphon say undersea boots and shoes are polished with, and what are they made of?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "book_title": "Alice's Adventures in Wonderland",
+      "chapter_number": 10
+    },
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 45,
+        "evidence": "“Boots and shoes under the sea,” the Gryphon went on in a deep voice, “are done with a whiting. Now you know.”\n\n“And what are they made of?” Alice asked in a tone of great curiosity.\n\n“Soles and eels, of course,” the Gryphon replied rather impatiently: “any shrimp could have told you that.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u045_c1",
+        "page": 45,
+        "source_id": "pg11",
+        "score": 0.74965,
+        "rank": 1,
+        "hit": true,
+        "preview": "“I never thought about it,” said Alice. “Why?”  “_It does the boots and shoes_,” the Gryph"
+      },
+      {
+        "id": "pg11_u046_c1",
+        "page": 46,
+        "source_id": "pg11",
+        "score": 0.64848,
+        "rank": 2,
+        "hit": false,
+        "preview": "“Stand up and repeat ‘’_Tis the voice of the sluggard_,’” said the Gryphon.  “How the crea"
+      },
+      {
+        "id": "pg11_u045_c2",
+        "page": 45,
+        "source_id": "pg11",
+        "score": 0.6193,
+        "rank": 3,
+        "hit": false,
+        "preview": "“I could tell you my adventures—beginning from this morning,” said Alice a little timidly:"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 1.0,
+    "elapsed_ms": 85.68
+  },
+  {
+    "query_id": "T03",
+    "split": "test",
+    "type": "direct",
+    "question": "What order of sentence and verdict does the Queen demand during Alice's trial?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg11",
+        "page": 55,
+        "evidence": "“No, no!” said the Queen. “Sentence first—verdict afterwards.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u053_c1",
+        "page": 53,
+        "source_id": "pg12",
+        "score": 0.67222,
+        "rank": 1,
+        "hit": false,
+        "preview": "CHAPTER IX. Queen Alice  “Well, this _is_ grand!” said Alice. “I never expected I should b"
+      },
+      {
+        "id": "pg12_u026_c2",
+        "page": 26,
+        "source_id": "pg12",
+        "score": 0.66279,
+        "rank": 2,
+        "hit": false,
+        "preview": "Alice felt there was no denying _that_. “Of course it would be all the better,” she said: "
+      },
+      {
+        "id": "pg11_u055_c1",
+        "page": 55,
+        "source_id": "pg11",
+        "score": 0.6618,
+        "rank": 3,
+        "hit": true,
+        "preview": "“Then the words don’t _fit_ you,” said the King, looking round the court with a smile. The"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 0.3333333333333333,
+    "elapsed_ms": 44.0
+  },
+  {
+    "query_id": "T04",
+    "split": "test",
+    "type": "metadata",
+    "question": "In chapter 9 of Through the Looking-Glass, what answer does the Red Queen give to dividing a loaf by a knife?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": {
+      "book_title": "Through the Looking-Glass",
+      "chapter_number": 9
+    },
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 54,
+        "evidence": "Bread-and-butter, of course"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg12_u055_c1",
+        "page": 55,
+        "source_id": "pg12",
+        "score": 0.68227,
+        "rank": 1,
+        "hit": false,
+        "preview": "The Queen gasped and shut her eyes. “I can do Addition, if you give me time—but I can’t do"
+      },
+      {
+        "id": "pg12_u059_c2",
+        "page": 59,
+        "source_id": "pg12",
+        "score": 0.64659,
+        "rank": 2,
+        "hit": false,
+        "preview": "However, she didn’t see why the Red Queen should be the only one to give orders, so, as an"
+      },
+      {
+        "id": "pg12_u054_c2",
+        "page": 54,
+        "source_id": "pg12",
+        "score": 0.63732,
+        "rank": 3,
+        "hit": true,
+        "preview": "“I suppose—” Alice was beginning, but the Red Queen answered for her. “Bread-and-butter, o"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 0.3333333333333333,
+    "elapsed_ms": 72.54
+  },
+  {
+    "query_id": "T05",
+    "split": "test",
+    "type": "conditional_exception",
+    "question": "What yes/no signals does Alice wish kittens would use, and why can she not interpret her kitten's actual reply?",
+    "config": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "pg12",
+        "page": 64,
+        "evidence": "It is a very inconvenient habit of kittens (Alice had once made the remark) that, whatever you say to them, they _always_ purr. “If they would only purr for ‘yes’ and mew for ‘no,’ or any rule of that sort,” she had said, “so that one could keep up a conversation! But how _can_ you talk with a person if they always say the same thing?”\n\nOn this occasion the kitten only purred: and it was impossible to guess whether it meant “yes” or “no.”"
+      }
+    ],
+    "results": [
+      {
+        "id": "pg11_u027_c2",
+        "page": 27,
+        "source_id": "pg11",
+        "score": 0.72402,
+        "rank": 1,
+        "hit": false,
+        "preview": "Alice didn’t think that proved it at all; however, she went on “And how do you know that y"
+      },
+      {
+        "id": "pg12_u064_c1",
+        "page": 64,
+        "source_id": "pg12",
+        "score": 0.71243,
+        "rank": 2,
+        "hit": true,
+        "preview": "CHAPTER XII. Which Dreamed it?  “Your majesty shouldn’t purr so loud,” Alice said, rubbing"
+      },
+      {
+        "id": "pg11_u002_c3",
+        "page": 2,
+        "source_id": "pg11",
+        "score": 0.70874,
+        "rank": 3,
+        "hit": false,
+        "preview": "Down, down, down. There was nothing else to do, so Alice soon began talking again. “Dinah’"
+      }
+    ],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "reciprocal_rank": 0.5,
+    "elapsed_ms": 55.59
+  }
+]
